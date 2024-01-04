@@ -52,9 +52,9 @@
 7. Regularization:
     * Regularization is a useful technique for reducing variance, with a slight mention of a potential increase in bias (though often not significant).
   
-###### Let's talk about Regularization
+#### Let's talk about Regularization
 
-    Regularization is a technique used in machine learning to prevent overfitting, a common issue where a model performs well on the training data but fails to generalize to new, unseen data. The primary goal of regularization is to impose a penalty on the complexity of a model, discouraging it from fitting the training data too closely. The two common types of regularizations
+* Regularization is a technique used in machine learning to prevent overfitting, a common issue where a model performs well on the training data but fails to generalize to new, unseen data. The primary goal of regularization is to impose a penalty on the complexity of a model, discouraging it from fitting the training data too closely. The two common types of regularizations
 
     **L1 Regularization** (Lasso Regression)
     * Penalty Term: Introduces a penalty term proportional to the absolute values of the model parameters.
@@ -67,26 +67,17 @@
         Use: Generally applicable and widely used; often helps prevent overfitting by keeping weights small.
 
     ##### Technics?
-
-    1. Controlling Model Complexity:
-
+    
+    1. Controlling Model Complexity<br>
         Regularization penalizes the model for being too complex, introducing a trade-off between fitting the training data and keeping the model simple.
-    2. Shrinking Weights:
-    
-    By penalizing large weights, regularization encourages the model to assign smaller values to parameters, preventing them from becoming too specialized to the training data.
-    3. Feature Selection (L1 Regularization):
-    
-    L1 regularization encourages sparsity, effectively leading to feature selection. Some features may have zero weights, making them irrelevant for the model.
-    4. Balancing the Bias-Variance Tradeoff:
-    
-    Overfitting often results from high variance, where the model is too sensitive to fluctuations in the training data. Regularization helps strike a balance by controlling both bias and variance.
-    5. Generalization to New Data:
-    
-    Regularization aims to improve the model's generalization performance by preventing it from memorizing noise in the training data.
-    
-
-
-
+    3. Shrinking Weights<be>
+        By penalizing large weights, regularization encourages the model to assign smaller values to parameters, preventing them from becoming too specialized to the training data.
+    4. Feature Selection (L1 Regularization)<br>
+        L1 regularization encourages sparsity, effectively leading to feature selection. Some features may have zero weights, making them irrelevant for the model.
+    5. Balancing the Bias-Variance Tradeoff<br>
+        Overfitting often results from high variance, where the model is too sensitive to fluctuations in the training data. Regularization helps strike a balance by controlling both bias and variance.
+    6. Generalization to New Data<br>
+        Regularization aims to improve the model's generalization performance by preventing it from memorizing noise in the training data.
 
 
     
