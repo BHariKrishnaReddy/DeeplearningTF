@@ -28,26 +28,26 @@
 
 #### Bias/Variance Trad-off
 
-     * We want our models to be good at adapting to different situations (low bias) but also not too sensitive or inconsistent (low variance). The trade-off is about finding that sweet spot where the model performs well on various tasks without making too many mistakes or being too rigid.
+* We want our models to be good at adapting to different situations (low bias) but also not too sensitive or inconsistent (low variance). The trade-off is about finding that sweet spot where the model performs well on various tasks without making too many mistakes or being too rigid.
 
 ##### Process of diagnosing and addressing bias and variance issues in a model
 
-    1. Identifying Bias:
-        * Check if the algorithm has a high bias by evaluating its performance on the training set.
-        * If there is high bias, consider solutions like using a larger network, adding more hidden layers, training for a longer duration, or exploring different network architectures.
-    2. Reducing Bias:
-        * Experiment with the mentioned solutions until the bias is reduced to an acceptable level, ensuring that the model can fit the training set well.
-    3. Evaluating Variance:
-        * Assess variance issues by examining the model's performance on the development set.
-        * If high variance is observed, consider acquiring more data, applying regularization techniques (to reduce overfitting), and exploring different network architectures.
-    4. Addressing Variance:
-        * Getting more data is an effective way to tackle high variance, but it may not always be feasible.
-        * Regularization and experimenting with different neural network architectures are additional strategies to reduce variance.
-    5. Balancing Bias and Variance:
-        * Depending on whether the model exhibits high bias or high variance, the set of recommended actions may vary.
-        * Modern deep learning, with the ability to train larger networks and access more data, has reduced the historical bias-variance tradeoff.
-    6. Benefits of Deep Learning:
-        * In the deep learning era, having the tools to reduce bias or variance without significantly affecting the other has been advantageous.
-        * Training a larger network is often beneficial, with the main drawback being increased computational time, as long as proper regularization is applied.
-    7. Regularization:
-        * Regularization is highlighted as a useful technique for reducing variance, with a slight mention of a potential increase in bias (though often not significant).
+1. Identifying Bias:
+    * Check if the algorithm has a high bias by evaluating its performance on the training set.
+    * If there is **high bias**, consider solutions like using a larger network, adding **more hidden layers**, training for a longer duration, or** exploring different network architectures**.
+2. Reducing Bias:
+    * Experiment with the mentioned solutions until the bias is reduced to an acceptable level, ensuring that the model can fit the training set well.
+3. Evaluating Variance:
+    * Assess variance issues by examining the model's performance on the development set.
+    * If **high variance** is observed, consider **acquiring more data**, applying **regularization** techniques (**to reduce overfitting**), and exploring different network architectures.
+4. Addressing Variance:
+    * Getting more data is an effective way to tackle high variance, but it may not always be feasible.
+    * Regularization and experimenting with different neural network architectures are additional strategies to reduce variance.
+5. Balancing Bias and Variance:
+    * Depending on whether the model exhibits high bias or high variance, the set of recommended actions may vary.
+    * Modern deep learning, with the ability to train larger networks and access more data, has reduced the historical bias-variance tradeoff.
+6. Benefits of Deep Learning:
+    * In the deep learning era, having the tools to reduce bias or variance without significantly affecting the other has been advantageous.
+    * Training a larger network is often beneficial, with the main drawback being increased computational time, as long as proper regularization is applied.
+7. Regularization:
+    * Regularization is a useful technique for reducing variance, with a slight mention of a potential increase in bias (though often not significant).
